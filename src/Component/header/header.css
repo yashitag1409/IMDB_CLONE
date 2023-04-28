@@ -1,0 +1,152 @@
+* {
+  color: white;
+}
+.header-dflex {
+  display: flex;
+  /* background-color: black; */
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  /* margin: 150px; */
+  padding: 10px 150px 10px 150px;
+  /* padding: ; */
+  /* justify-content: space-evenly; */
+  background: rgb(29, 34, 44);
+  background: linear-gradient(
+    90deg,
+    rgba(29, 34, 44, 1) 30%,
+    rgba(5, 4, 4, 1) 70%,
+    rgba(30, 44, 47, 1) 100%
+  );
+}
+/* #imdb_logo {
+  font-size: 20px;
+  background-color: rgb(245, 197, 24);
+  color: black;
+  font-weight:900;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: -10px;
+} */
+
+#imdb_logo {
+  width: 70px !important;
+  height: 30px !important;
+  overflow: hidden;
+  background: none;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.menu-container {
+  margin-top: 8px;
+  font-size: 18px;
+  display: flex;
+  /* background: rgb(29, 34, 44); */
+  margin-left: 15px;
+  margin-right: 15px;
+  background: none;
+}
+.hamburgar-menu {
+  background-color: transparent !important;
+  color: aliceblue;
+}
+.menu-name {
+  margin-left: 9px;
+  background-color: transparent !important;
+}
+.search-container {
+  margin-left: 15px;
+  margin-top: 8px;
+  margin-right: 15px;
+  display: flex;
+  background: transparent;
+  border: 5px solid white;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.search {
+  background-color: aliceblue;
+  /* border-radius: 0px 5px 5px 0; */
+  /* border: 0 0 0 1px solid; */
+  border: none;
+  /* border-left: 1px solid black; */
+  width: 550px;
+}
+.search-dropdown {
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: 700;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid grey;
+}
+
+.search-carrot {
+  background: none;
+  color: black;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.imdb_pro {
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  background: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  /* background: rgb(29, 34, 44); */
+}
+#imdb-name {
+  background: transparent !important;
+  color: aliceblue;
+}
+#pro {
+  color: cyan;
+  background: transparent !important;
+}
+.v-line {
+  margin-left: 25px;
+  border-left: 1px solid cyan;
+  margin-right: 15px;
+  height: 30px;
+}
+.watchlist-container-header {
+  display: flex;
+  background: none !important;
+  /* color: aliceblue; */
+  /* justify-content: space-between; */
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#bookmark-logo {
+  margin-top: 9px;
+}
+.watchlist-name {
+  margin-left: 15px;
+  background: none;
+  font-weight: 700 !important;
+}
+.sign-btn {
+  margin-left: 15px;
+  font-weight: 700;
+  margin-right: 15px;
+  background: none;
+  /* width: 35px; */
+}
+.lang-dropdown {
+  background: none;
+  /* background: transparent; */
+  margin-left: 15px;
+  display: flex;
+  /* margin-right: 15px; */
+}
+.carrot {
+  background: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
